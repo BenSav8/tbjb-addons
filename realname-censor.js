@@ -19,4 +19,5 @@ function escapeRegExp(str) {
 }
 
 	data.msg = censorRealNames(data.msg)
+	data.nick = censorRealNames(data.nick)
 })
